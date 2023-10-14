@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.right {
+    margin-right: -3px;
+}
+
+.left {
+    margin-left: -3px;
+}
+
+.sideLeft{
+    border-right: 1px solid gray;
+}
+.heading {
+    color: rgb(141, 50, 227);
+    font-family: Arial, sans-serif;
+}
+
+.bootn {
+    height: 40px;
+}
+
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.white {
+    background-color: rgb(242, 237, 237);
+}
+
+.brown {
+    background-color: #664B4B;
+}
+
+.bro {
+    background-color: #C0B996;
+}
+
+.red {
+    background-color: #a30b0b;
+}
+
+.pink {
+    background-color: #f0a9a9;
+}
+
+.orange {
+    background-color: #e9a434;
+}
+
+.yellow {
+    background-color: #d5f15c;
+}
+
+.green {
+    background-color: #63e646;
+}
+
+.blue {
+    background-color: #2da9ec;
+}
+
+.darkblue {
+    background-color: #2A4D79;
+}
+
+.purple {
+    background-color: #8B36E4;
+}
+
+.bage {
+    background-color: #D8CA81;
+}
+
+.bage1 {
+    background-color: #a86523;
+}
+
+.bage2 {
+    background-color: #7CFA00;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+
+/* === Media Query === */
+@media only screen and (min-width:320px) and (max-width:576px){
+    .small{
+        display: none;
+        justify-self: center;
+    }
+    .sideLeft {
+        display: none;
+    }
+  
+ 
+    .go{
+        display: none;
+    }
+    .heading {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:578px) and (max-width:768px){
+    .sideLeft{
+        display: none;
+    } 
+    .small{
+        display: none;
+       margin-left: 60px;
+    } 
+    .gallery{
+       margin-left: 1rem;
+       margin-right: 1rem;
+      }  
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+
+   
+
+    .go{
+        display: none;
+    }
+    .gallery{
+      margin-left: 4rem;
+    }
+    .sideLeft{
+        display: none;
+    }
+   
+}
+/* @media only screen and (min-width:992px) and (max-width:1229px){
+    .sideLeft{
+        width: 100%;
+     
+    } 
+    .go{
+        display: none;
+    } 
+} */

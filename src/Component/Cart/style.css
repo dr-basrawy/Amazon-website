@@ -1,0 +1,14 @@
+
+
+.cart-max-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+
+}
+.p-cart{
+    margin: 0 !important;   
+    padding: 0 ;
+}

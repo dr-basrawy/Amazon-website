@@ -1,0 +1,150 @@
+
+:root {
+    --first-footer-color: #232f3e;
+    --second-footer-color: #131A22;
+    --greyT-decoration-color: #999;
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.dark-background {
+    background-color: var(--first-footer-color);
+}
+
+.signinbtn {
+    background: linear-gradient(to bottom, #f7dfa5, #e6ab16);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    width: 14%;
+ 
+}
+
+.start-here:hover {
+    color: red;
+}
+
+/* Back To top Footer */
+.back-top {
+    background-color: #37475a !important;
+    border-radius: 0 !important;
+}
+
+.back-top:hover {
+    background-color: #505b68 !important;
+}
+/* 2 sec  Footer */
+.cont{
+    display: inline-flex;
+    text-align: start;
+    margin: 0 auto;
+
+}
+.first-footer-sec {
+    background-color: #232f3e;
+    text-align: center;
+}
+
+.footer-column {
+
+    font-weight: 700;
+    font-size: 1rem;
+    white-space: nowrap;
+    padding-top: 50px;
+}
+
+.footer-ul {
+    text-align: revert;
+    list-style-type: none;
+}
+
+.footer-link {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-line: #999;
+}
+
+.footer-li {
+    margin: 0 0 6px;
+}
+
+.footer-line {
+    border-top: 1px solid #3a4553 !important;
+    margin-top: 1px !important;
+}
+.amazon-footer-logo-area button{
+    background-color: #232f3e;
+    border: #848688 1px solid;
+    
+}
+.amazon-footer-logo-area{
+    background-color: #232f3e;
+}
+.amazon-footer-logo-area .icons .border {
+    border: solid 0.1em #848688 !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.amazon-footer-logo-area .icons p {
+    height: 0.4rem;
+}
+
+.amazon-footer-logo-area .icons .english {
+    margin-top: -0.33rem;
+}
+
+/*second footer section css start */
+.second-footer-sec {
+    background-color: var(--second-footer-color);
+    color:white !important;
+}
+
+.footer-section-column {
+    font-size: 0.8rem !important;
+    line-height: 1rem;
+}
+
+.footer-section-column a,
+.footer-section-column span {
+    text-decoration: none !important;
+    color:#999;
+
+}
+
+.footer-section-column a:hover,
+.footer-section-column span:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--greyT-decoration-color);
+}
+.amzaon2{
+    color: #3a4553;
+    margin-right: 3rem;
+    margin-top: 5px;
+}
+
+.first-title-footer{
+    color: rgb(239, 216, 216) !important;
+}
+.bgbtn:hover{
+    background-color: #3a4553 !important;
+    
+}
+
+.flag button::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 12px;
+    background: url("./../../../public/assets/images/us.png") no-repeat  ;
+    background-size: cover;
+}

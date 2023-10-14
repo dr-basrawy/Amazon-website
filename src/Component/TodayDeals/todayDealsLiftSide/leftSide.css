@@ -1,0 +1,62 @@
+.todayDealsLeftSide {
+    box-sizing: border-box;
+}
+
+.col-md-1>span {
+    font-size: 14px;
+}
+
+header>a,
+#selectAll,
+section>a,
+.averageReview,
+.seeMore,
+.relatedItemsTitle,
+.searchByPrice {
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+
+}
+
+header>a:hover,
+#selectAll:hover,
+section>a:hover,
+.averageReview:hover,
+.seeMore:hover,
+.relatedItemsTitle:hover,
+.searchByPrice:hover {
+    cursor: pointer;
+    color: #da651f;
+    text-decoration: underline;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+.todayDealsLeftSide h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkedStar {
+    color: #da651f;
+}
+
+
+@media screen and (max-width:450px) {
+    .todayDealsLeftSide h2 {
+        font-size: 15px;
+    }
+
+    .todayDealsLeftSide span {
+        font-size: 12px;
+    }
+    .controlButtons>a,.controlButtons>i{
+        font-size: small;
+        padding: 8px;
+    }
+}

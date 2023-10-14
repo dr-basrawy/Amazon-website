@@ -1,0 +1,59 @@
+.layout-profile {
+    margin-left: 25rem;
+}
+
+.wallpeper{
+    margin-left: 15rem;
+    width: 60rem;
+    height: 25rem;
+    background:rgb(230, 227, 227);
+    background: linear-gradient(90deg, rgba(230, 227, 227, 1) 0%, rgba(156, 159, 161, 1) 100%, rgba(120, 126, 128, 1) 100%);
+    position: relative;
+
+}
+
+.minTitle{
+    position: absolute;
+    left:230px;
+    top: 80px;
+    z-index: 2;
+    background-color:white;
+
+}
+.imgProFile {
+    position: absolute;
+    left:0rem;
+    top: 20rem;
+    z-index: 2;
+    border-radius: 50%;
+    /* margin-left: 5rem; */
+}
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+.order-table {
+    width: 100%;
+
+    white-space: nowrap;
+    overflow: auto;
+
+
+
+}
+.order-th {
+    background-color: rgb(163, 171, 176);
+    padding: 10px;
+
+    color: rgb(255, 255, 255);
+
+}
+.order-tr-light {
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.order-tr-dark {
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.order-td {
+    padding: 10px;
+}

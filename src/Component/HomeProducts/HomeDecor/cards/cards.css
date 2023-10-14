@@ -1,0 +1,52 @@
+.HomeDecorCards {
+  min-height: 254px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .HomeDecorCards:hover {
+    height: 254px;
+  }
+  
+  .icon {
+    width: 180px;
+    height: 180px;
+    color: red;
+    font-size: 30px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 50%;
+    
+  }
+  .icon:hover{
+    width: 120px;
+    height: 120px;
+  }
+  
+  .content {
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 8px;
+    transform: translateY(-80px) scale(0);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+  
+  .HomeDecorCards:hover .content {
+    transform: translateY(0) scale(1)
+  }
+  .HomeDecorCards li{
+    font-size: 16px;
+    width: 100%;
+  
+  }
+  .HomeDecorCards ul{
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+  }
+  

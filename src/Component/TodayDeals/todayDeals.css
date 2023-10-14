@@ -1,0 +1,12 @@
+.TDSlideText{
+    font-size: 0.9rem;
+}
+.splide__arrow {
+    font-size: 0.7rem; 
+    color: black !important; 
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+ }
+ #todayDealsPagination a{
+    color: black;
+ }

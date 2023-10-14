@@ -1,0 +1,47 @@
+@font-face {
+    font-family: newFont;
+    src: url('./OfficinaSansStd-Bold.otf');
+  }
+
+
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: newfont;
+  }
+.card-img-top1{
+  height: 25vh;
+  width: 14vw;
+}
+
+@media (max-width: 780px) {
+
+
+.elecLeftSide{
+  display: none;
+}
+.third-nav1{
+  display: none;
+}
+}
+.imgCard{
+  height: 18rem;
+  width: 15rem !important;
+}
+.elecLeftSide{
+  border-right:1px solid gray;
+  height: 135rem;
+  }
+
+  .joinPrime{
+    width: 98% !important;
+  }
+
+  .seeAll{
+    color: rgb(62, 110, 130) !important;
+    background-color: #ebeaea !important;
+  }

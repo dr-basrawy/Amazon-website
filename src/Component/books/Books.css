@@ -1,0 +1,11 @@
+.a-book {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.a-book:hover{
+    color:rgb(255,153,0) !important ;
+}
+.col-respons{
+    width: calc(100% - 240px);
+}

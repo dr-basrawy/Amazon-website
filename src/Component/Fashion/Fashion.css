@@ -1,0 +1,190 @@
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.white {
+    background-color: rgb(242, 237, 237);
+}
+
+.brown {
+    background-color: #664B4B;
+}
+
+.bro {
+    background-color: #C0B996;
+}
+
+.red {
+    background-color: #a30b0b;
+}
+
+.pink {
+    background-color: #f0a9a9;
+}
+
+.orange {
+    background-color: #e9a434;
+}
+
+.yellow {
+    background-color: #d5f15c;
+}
+
+.green {
+    background-color: #63e646;
+}
+
+.blue {
+    background-color: #2da9ec;
+}
+
+.darkblue {
+    background-color: #2A4D79;
+}
+
+.purple {
+    background-color: #8B36E4;
+}
+
+.bage {
+    background-color: #D8CA81;
+}
+
+.bage1 {
+    background-color: #a86523;
+}
+
+.bage2 {
+    background-color: #7CFA00;
+}
+.bage3 {
+    background-color: #29bcc6;
+}
+.bage4 {
+    background-color: #d04529;
+}
+.bage5 {
+    background-color: #0c00fa;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+
+
+.colorfont{
+    color:#DC3545;
+    
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: #060606;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* leftSide */
+
+
+.leftSide-fashion {
+    box-sizing: border-box !important;
+}
+
+.col-md-1>span {
+    font-size: 14px;
+}
+
+header>a,
+#selectAll,
+section>a,
+.averageReview,
+.seeMore,
+.relatedItemsTitle {
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+
+}
+
+header>a:hover,
+#selectAll:hover,
+section>a:hover,
+.averageReview:hover,
+.seeMore:hover,
+.relatedItemsTitle:hover {
+    cursor: pointer;
+    color: #da651f;
+    text-decoration: underline;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+.leftSide-fashion h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkedStar {
+    color: #da651f;
+}
+
+
+@media screen and (max-width:450px) {
+    .leftSide-fashion {
+       display: none !important;
+    }
+
+ 
+}
+
+
+/* hover  */
+
+.nav-last {
+	display: flex;
+	
+}
+
+.li-nav {
+  /* margin-bottom: 10px; */
+	list-style-type: none;
+	padding: 10px;
+}
+
+.ancor {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.ancor::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background:  orange;
+  transition: width .4s ease-in;
+}
+
+.ancor:hover::after {
+  width: 100%;
+}

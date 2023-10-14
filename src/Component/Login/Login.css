@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2 img{
+    width: 140px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-center-box {
+    border: 1px solid #ccc;
+    /* padding: 20px; */
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.breck p{
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    position: relative;
+    /* display: inline-block; */
+    /* padding: 0 8px 7px; */
+}
+.breck, .btn{
+    display: flex;
+    justify-content: center !important;
+}
+.breck::before,.breck::after{
+    content: "";
+    position: relative;
+    top:5px;
+    display: inline-block;
+    width: 120px;
+    border-top: 1px solid #e7e7e7;
+}
+.btn button{
+    width: 23rem;
+    height:2rem;
+    align-items: center !important;
+    margin: 15px auto;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.btn button:hover{
+    background-color: #ededed;
+}
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    margin: 2rem auto .4rem auto;
+}
+footer .links a{
+    font-size: 12px;
+}
+ a:hover{
+    color: rgb(188, 95, 34);
+    text-decoration: underline;
+}
+footer::before{
+    content: "";
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 3rem;
+    margin-top: -35px;
+    border-top: 1px solid transparent;
+    box-shadow: 0 10px 15px -20px #333;
+}
+footer p{
+    font-size: 11px;
+    color:#555;
+    text-align: center;
+}
+.CreateAccount{
+    display: flex !important;
+}

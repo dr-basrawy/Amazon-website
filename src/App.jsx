@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Component/Home/Home";
 import React, { useEffect } from "react";
 import TodayDealsPage from "./Component/TodayDeals/TodayDealsPage";
-import Coupons from "./Component/TodayDeals/Coupons";
+import Coupons from "./Component/TodayDeals/coupons";
 import TodayDeals from "./Component/TodayDeals/TodayDeals";
 import { Provider } from "react-redux";
 import store from "./../store/store";

@@ -1,6 +1,6 @@
 import Fashion from "./Component/Fashion/Fashion";
 import KidsBaby from "./Component/Fashion/KidsBaby";
-import Men from "./Component/Fashion/men";
+import Men from "./Component/Fashion/Men";
 import Mobile from "./Component/MobilePhone/mobile";
 import AppLayout from "./Component/AppLayout/AppLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";

@@ -1,7 +1,7 @@
 import Fashion from "./Component/Fashion/Fashion";
 import KidsBaby from "./Component/Fashion/KidsBaby";
 import Men from "./Component/Fashion/Men";
-import Mobile from "./Component/MobilePhone/mobile";
+import Mobile from "./Component/MobilePhone/Mobile";
 import AppLayout from "./Component/AppLayout/AppLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Component/Home/Home";

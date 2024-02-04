@@ -15,7 +15,7 @@ import VideoGames from "./Component/VideoGames/Vgames";
 import Prime from "./Component/prime/Prime";
 import Electronics from "./Component/Electronics/Elec";
 import FashionPage from "./Component/Fashion/FashionPage";
-import Monitor from "./Component/monitor/Monitor";
+import Monitor from "./Component/monitor/monitor";
 import Books from "./Component/books/Books";
 import HomeProducts from "./Component/HomeProducts/HomeProducts";
 import HomeDecor from "./Component/HomeProducts/HomeDecor/HomeDecor";
@@ -28,13 +28,13 @@ import { AuthProvider } from './Context/user-auth'
 import { useState } from 'react'
 import EditUserInfo from "./Component/UserInfo/EditUserInfo";
 import YourAccount from "./Component/UserInfo/YourAccount";
-import Login from "./Component/Login/login";
+import Login from "./Component/Login/Login";
 import Cart from "./Component/Cart/Cart";
 import Order from "./Component/order/Order";
 import CompleteOrder from "./Component/order/completeOrder/CompleteOrder";
 import ProductDetails from "./Component/productDetails/ProductDetails";
 import Profile from "./Component/UserInfo/Profile";
-import Favorite from "./Component/favorite/Favorite";
+import Favorite from "./Component/favorite/FavProduct";
 import TrackingOrder from "./Component/UserInfo/TrackingOrder";
 import { refresh } from "./Services/user-auth";
 

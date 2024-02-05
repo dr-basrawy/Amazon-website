@@ -15,7 +15,7 @@ import {
   fetchfavorite,
 } from "../../../store/Slice/favorite";
 import { addreviwes, fetchreviwes } from "../../../store/Slice/reviwes";
-import "./productdetails.css";
+
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Form } from "react-bootstrap";
